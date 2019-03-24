@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: zuul-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://events-uat.issmart.com.cn:8761/eureka/
+zuul:
+  routes:
+    zuul-backend-service: /**

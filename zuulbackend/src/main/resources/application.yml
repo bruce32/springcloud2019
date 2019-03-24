@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: zuul-backend-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://events-uat.issmart.com.cn:8761/eureka/
+server:
+  port: 8081
