@@ -8,6 +8,11 @@ import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
 
+/**
+ * 
+ * @author brucesu
+ *
+ */
 public class MyFilter extends ZuulFilter {
 
 	@Override
